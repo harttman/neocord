@@ -1,6 +1,6 @@
 <?php
 
-/*require 'vendor/autoload.php';
+require 'vendor/autoload.php';
 
 use Discord\Discord;
 
@@ -17,4 +17,3 @@ $client->on('MESSAGE_CREATE', function($msg) use ($client) {
 });
 
 $client->run();
-*/
