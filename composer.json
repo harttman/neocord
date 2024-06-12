@@ -1,0 +1,22 @@
+{
+    "name": "harttman/neocord",
+    "description": "yeye",
+    "type": "library",
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.8",
+        "ratchet/pawl": "^0.4.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Discord\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "harttman",
+            "email": "dakiv.offical.vitaliy@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
