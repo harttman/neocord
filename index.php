@@ -1,12 +1,12 @@
 <?php
 
-require 'vendor/autoload.php';
+/*require 'vendor/autoload.php';
 
 use Discord\Discord;
 
 $intents = 513;
 
-$client = new Discord('token', $intents);
+$client = new Discord('', $intents);
 
 $client->on('MESSAGE_CREATE', function($msg) use ($client) {
     if($msg->author->bot) return;
@@ -17,3 +17,4 @@ $client->on('MESSAGE_CREATE', function($msg) use ($client) {
 });
 
 $client->run();
+*/
